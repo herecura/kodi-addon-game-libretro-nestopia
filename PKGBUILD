@@ -1,7 +1,7 @@
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
 pkgname=kodi-addon-game-libretro-nestopia
-pkgver=1.50.0.4
+pkgver=1.50.0.5
 _codename=Leia
 pkgrel=1
 pkgdesc="Libretro wrapper for Kodi's Game API"
@@ -12,7 +12,7 @@ groups=('kodi-addons' 'kodi-addons-game')
 depends=('kodi-addon-game-libretro' 'libretro-nestopia')
 makedepends=('cmake' 'kodi-dev')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/kodi-game/game.libretro.nestopia/archive/$pkgver-$_codename.tar.gz")
-sha512sums=('58535b305d1aa6ba498c07cbfad09efcfd0e8dd7f251fb973188beeacd07d3ebfa48c639e73a07501019acb88e29cf1ff1b8a685235d7ef69cedb127bba6e44e')
+sha512sums=('69a0511dfb4e81de976931c3aeb0d7cab3de3f503816193c7688565faa287b4501e20f11caa4ba85383487ea0ce2156d71bf39076f664e31b42d33c406ef4239')
 
 build() {
     cd "game.libretro.nestopia-$pkgver-$_codename"
